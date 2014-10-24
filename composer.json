@@ -1,0 +1,23 @@
+{
+    "name": "adamlundrigan/ldc-zfc-user-api",
+    "description": "A REST API for ZfcUser",
+    "keywords": [ "zfcuser",  "apigility", "zf-rest", "zf-rpc" ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Adam Lundrigan",
+            "email": "adam@lundrigan.ca"
+        }
+    ],
+    "require": {
+        "zf-commons/zfc-user": "1.*",
+        "zfcampus/zf-rest": "1.*",
+        "zfcampus/zf-rpc": "1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "LdcZfcUserApi": "src/"
+        },
+        "files": ["Module.php"]
+    }
+}
