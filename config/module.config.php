@@ -1,5 +1,8 @@
 <?php
 return array(
+    'ldc-zfc-user-api' => array(
+        'nuke_zfcuser_routes' => false,
+    ),
     'router' => array(
         'routes' => array(
             'ldc-zfc-user-api.rest.user' => array(

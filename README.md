@@ -27,6 +27,20 @@ __WARNING__: This code is not yet tested, documented or been used in a live envi
 
 3. Configure ZfcUser
 
+
+## Notes
+
+### Standalone mode
+
+If you're using LdcZfcUserApi in lieu of ZfcUser's bundled frontend (eg: as part of an Apigility app) you will want to disable the routes which come pre-activated in ZfcUser.  To do this, simply add the following lines to your application's config (f.e, to global.php):
+
+```
+    'ldc-zfc-user-api' => array(
+        'nuke_zfcuser_routes' => true,
+    ),
+```
+
+
 ## TODO
 
  - [x] Apigility RPC resource for account registration

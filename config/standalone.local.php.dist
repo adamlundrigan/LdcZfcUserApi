@@ -1,0 +1,6 @@
+<?php
+return array(
+    'ldc-zfc-user-api' => array(
+        'nuke_zfcuser_routes' => true,
+    ),
+); 
