@@ -16,7 +16,7 @@ class Module
     {
         $configListener = $e->getConfigListener();
         $config         = $configListener->getMergedConfig(false);
-        if ( $config['ldc-zfc-user-api']['nuke-zfcuser-routes'] !== true ) {
+        if ( $config['ldc-zfc-user-api']['nuke_zfcuser_routes'] !== true ) {
             return;
         }
         if ( ! isset($config['router']['routes']['zfcuser']) ) {
